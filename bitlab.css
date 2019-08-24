@@ -1,0 +1,95 @@
+body{
+    background: #F2F2F2;
+}
+
+#welcome{
+    background-image: url(imagenes/home/banner.jpg);
+    background-size: cover;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+    justify-content:center
+}
+
+footer {
+    display: block;
+}
+
+#btn{
+    border: 1.5px solid #481AE7;
+}
+
+.text-purple-700{
+    color: #481AE7;
+}
+
+#partners{
+    background-image: url(imagenes/aliados/banner1.jpg);
+    background-size: cover;
+}
+
+#cinta{
+    background-color: #EEEEEE;
+    align-self: auto;
+}
+
+#becas{
+    background-image: url(imagenes/becas/banner2.jpg);
+    background-size: cover;
+}
+
+#events{
+    background-image: url(imagenes/eventos/banner3.jpg);
+    background-size: cover;
+}
+
+.space-around { 
+    -webkit-align-content: space-around; 
+    align-content: space-around; 
+  }
+
+p {
+    font-family: Lato;
+    font-style: normal;
+}
+
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 36px;
+}
+
+h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.tittle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+#morado{
+    background-color: #271777;
+}
+
+
+#sorry{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    align-self: center;
+}

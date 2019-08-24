@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BITLAB</title>
+    <meta name="description" content="Sitio web de academia de cursos web">
+    <link rel="stylesheet" href="bitlab.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind|Lato|Montserrat:400,700&display=swap" rel="stylesheet">
+    <title>Eventos BITLAB</title>
+</head>
+
+<body>
+    <header class="bg-transparent h-24 text-black">
+        <div class="fixed flex content-center items-center container-fluid m-auto w-full bg-white h-24 p-6">
+            <div class="float-left mr-auto">
+                <a href="home.html">
+                    <img src="./imagenes/h-f/logo-bitlab.svg" class="h-5 px-4">
+                </a>
+            </div>
+            <div class="float-right">
+                <a class="d-block p-6" href="partners.html">
+                    Aliados
+                </a>
+                <a class="d-block p-6" href="cursos.html">
+                    Cursos
+                </a>
+                <a class="d-block p-6" href="error.html">
+                    Talleres
+                </a>
+                <a class="d-block p-6" href="becas.html">
+                    Becas
+                </a>
+                <a class="d-block p-6" href="eventos.html">
+                    Eventos
+                </a>
+            </div>
+        </div>
+    </header>
+    <div id="events" class="flex-1 items-center h-screen md:h-50 w-full text-white px-20 py-40">
+        <div class="m-auto container">
+            <div class="w-full mb-5">
+                <img src="./imagenes/eventos/skills.svg" alt="">
+            </div>
+            <div>            
+                <a href="" >   
+                    <button id="btn" class="bg-transparent hover:bg-indigo-800 text-indigo-700 font-semibold hover:text-white py-2 px-4 border border-indigo-800 hover:border-transparent rounded">
+                        Encuentra tu curso
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-sm w-full lg:max-w-full lg:flex">
+        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
+        </div>
+        <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+          <div class="mb-8">
+            <div class="text-gray-900 font-bold text-xl mb-2">¿Cómo realizar y presentar un buen prototipado?</div>
+            <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+          </div>
+          <div class="flex items-center">
+                <p class="text-gray-600">9 marzo 2019 / 8:00 a.m - 12:00 m.d</p>
+            </div>
+          </div>
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+        <div class="container float-right">
+            <form class="w-full max-w-sm">
+                <div class="mb-12">
+                    <div class="flex items-center border-b border-b-2 border-teal-500 py-2">
+                        <input class="appearance-none bg-transparent border-none w-full text-gray-darker mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nombre" aria-label="Full name" aria-required=true aria-invalid="false">
+                        <div class="flex items-center border-b border-b-2 border-teal-500 py-2"></div>
+                        <input class="appearance-none bg-transparent border-none w-full text-gray-darker mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Correo electrónico" aria-label="correo" aria-required=true aria-invalid="false">
+                        <div class="flex items-center border-b border-b-2 border-teal-500 py-2"></div> 
+                        <input class="appearance-none bg-transparent border-none w-full text-gray-darker mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" aria-required=true aria-invalid="false">
+                        <select>
+                            <option value="0">¿Qué área te interesa más?</option>
+                            <option value="1">Desarrollo de Software</option>
+                            <option value="2">Estrategia digital</option>
+                            <option value="3">Diseño</option>
+                            <option value="4">Emprendimiento</option>
+                            </select>   
+                            <span class="text-red text-sm"></span> 
+                        </div>                      
+                        <div class="md:flex md:items-center">
+                            <div class="md:w-1/3"></div>
+                            <div class="md:w-2/3">
+                            </div>
+                        </div>
+                </div>
+            </form>
+    </div>
+    <div class="w-full max-w-xs">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                  Username
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                  Password
+                </label>
+                <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+                <p class="text-red-500 text-xs italic">Please choose a password.</p>
+            </div>
+            <select>
+                <option value="0">¿Qué área te interesa más?</option>
+                <option value="1">Desarrollo de Software</option>
+                <option value="2">Estrategia digital</option>
+                <option value="3">Diseño</option>
+                <option value="4">Emprendimiento</option>
+            </select>
+            <div class="flex items-center justify-between">
+            <button class="bg-transparent hover:bg-purple-500 text-purple-700 font-semibold hover:text-white py-2 px-4 border border-purple-500 hover:border-transparent rounded">
+                Registrarme
+            </button>
+            </div>
+        </form>
+    </div>
+</body>
+<footer class="bg-black h-24 text-white">
+        <div class="flex justify-around items-center container-fluid m-auto w-full h-24 text-white text-lg mr-3 hover:text-purple">
+            <img src="./imagenes/h-f/logo-bitlab.svg" alt="" class="h-5 px-4">
+            <h4>Todos los derechos reservados, 2019 © BITLAB</h4>
+            <div class="flex items-center ">
+                <a href="tel:25122274" text-white mr-3 no-underline>
+                <div>
+                    <img class="w-12" src="./imagenes/h-f/phone.svg" alt="" class="h-1">
+                </div>
+                <a href="tel:25122274" text-white mr-3 no-underline>
+                <div>
+                    <h4>2512-2274 / 22004519</h4>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/BitLabsv">
+                    <img class="w-12 " src="./imagenes/h-f/facebook.svg" alt="" class="h-0.25">
+                </a>
+                <a href="https://www.instagram.com/bitlabsv/">
+                    <img class="w-12" src="./imagenes/h-f/instagram.svg" alt="" class="h-0.25">
+                </a>
+            </div>                
+        </div>
+</footer>
+</html>
